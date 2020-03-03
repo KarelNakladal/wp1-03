@@ -1,7 +1,22 @@
 <?php
 $A          =   10;
 $B          =   5 ;
+$nasobek    =   $A * $B
+$rozdil     =   $A - $B
+$soucin     =   $A + $B
+
+if ($B != 0 ){
+    $podil      =   $A / $B
+}
+
+else{
+    $podil = "nelze dělit nulou"
+}
+
 ?>
+
+
+
 
 <!DOCTYPE html>
 <html lang="cz">
@@ -14,9 +29,9 @@ $B          =   5 ;
 <body>
 <p> A=<?= $A ?>
 <p> B=<?= $B ?>
- <p>Součet: <?= $A ?>   +   <?= $B ?> = <?= $A + $B?>
- <p>Součin: <?= $A ?>   *   <?= $B ?> = <?= $A * $B?>
- <p>Rozdíl: <?= $A ?>   -   <?= $B ?> = <?= $A - $B?>
- <p>Podíl: <?= $A ?>   /   <?= $B ?> = <?= $A / $B?>
+ <p>Součet: <?= $A ?>   +   <?= $B ?> = <?= $A + $B ?>
+ <p>Součin: <?= $A ?>   *   <?= $B ?> = <?= $soucin ?>
+ <p>Rozdíl: <?= $A ?>   -   <?= $B ?> = <?= $rozdil ?>
+ <p>Podíl: <?= $A ?>   /   <?= $B ?> =  <?= $podil  ?>
 </body>
 </html>
