@@ -1,16 +1,16 @@
 <?php
 $A          =   10;
 $B          =   5 ;
-$nasobek    =   $A * $B
-$rozdil     =   $A - $B
-$soucin     =   $A + $B
+$soucin    =   $A * $B;
+$rozdil     =   $A - $B;
+$soucet     =   $A + $B;
 
 if ($B != 0 ){
-    $podil      =   $A / $B
+    $podil      =   $A / $B;
 }
 
 else{
-    $podil = "nelze dělit nulou"
+    $podil = "nelze dělit nulou";
 }
 
 ?>
@@ -32,6 +32,6 @@ else{
  <p>Součet: <?= $A ?>   +   <?= $B ?> = <?= $soucet ?>
  <p>Součin: <?= $A ?>   *   <?= $B ?> = <?= $soucin ?>
  <p>Rozdíl: <?= $A ?>   -   <?= $B ?> = <?= $rozdil ?>
- <p>Podíl: <?= $A ?>   /   <?= $B ?> =  <?= $podil  ?>
+ <p>Podíl:  <?= $A ?>   /   <?= $B ?> =  <?= $podil  ?>
 </body>
 </html>
