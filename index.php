@@ -29,7 +29,7 @@ else{
 <body>
 <p> A=<?= $A ?>
 <p> B=<?= $B ?>
- <p>Součet: <?= $A ?>   +   <?= $B ?> = <?= $A + $B ?>
+ <p>Součet: <?= $A ?>   +   <?= $B ?> = <?= $soucet ?>
  <p>Součin: <?= $A ?>   *   <?= $B ?> = <?= $soucin ?>
  <p>Rozdíl: <?= $A ?>   -   <?= $B ?> = <?= $rozdil ?>
  <p>Podíl: <?= $A ?>   /   <?= $B ?> =  <?= $podil  ?>
